@@ -1,0 +1,99 @@
+header {
+	background-color: black;
+	height: 45px;
+	width: 110%;
+	margin: -10px 0px 0px -10px;
+}
+
+#header_button1 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+#header_button2 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button3 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button4 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button5 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button6 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button7 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button8 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button9 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+#header_button10 {
+	border: 0px;
+	border-style: none;
+	padding: 0px;
+	margin: -5px;
+	vertical-align: 25px left;
+
+}
+
+:hover#header_button2 {
+	border-bottom-color: blue 15px;
+}

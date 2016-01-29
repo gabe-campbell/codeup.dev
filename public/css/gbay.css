@@ -1,0 +1,83 @@
+body {
+	background-color: #F5F5F5;
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	font-color: #0654ba;
+}
+
+/*p {
+	margin: 0px;
+}
+
+li.signin {
+	margin: 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13.5px;	
+	padding: 7px 0px 0px 18px;
+}
+
+li.dailydeals {
+	margin: 0px;
+	float: left;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13.5px;
+	display: inline-block;
+}*/
+
+
+ul {
+	list-style-type: none;
+	list-style-position: outside;
+	list-style-image: none; 
+	margin: 0px;
+}
+
+span {
+	display: inline-block;
+	margin: 0px;
+}
+
+.header {
+	background-color: white;
+	box-shadow: 0px 4px 10px #CCCCCC;
+	display: block;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 13.5px;	
+	height: 33px;
+	margin: 0px;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.header_nav {
+	height: inherit;
+	position: relative;
+	margin: 0px;
+	left: 75px;
+	width: 90%;
+	background-color: white;
+
+}
+
+#dailydeals {
+	border-left: 2px solid black;
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	position: absolute;
+}
+
+#signin {
+	display: inline-block;
+	float: left;
+	margin: 0px;
+	position: relative;
+
+}
+
+#giftcards {
+	display: inline-block;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+		
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<script>
+			
+			// var myNameIs = 'Gabe'; 
+			var random = Math.floor((Math.random()*100)+1);
+			console.log(random);
+			random = random % 2;
+			console.log(random);
+
+
+			// function sayHello(name) {
+			// 	console.log('hello, ' + myNameIs);
+			// }
+
+			// sayHello(myNameIs);
+			// sayHello(myNameIs);
+			// sayHello(myNameIs);
+			// sayHello(myNameIs);
+			// sayHello(myNameIs);
+
+			function isOdd(number) {
+				var message = "This number is " + ((random > 0) ? "odd":"even");
+				console.log(message);
+			}
+
+			isOdd(random);
+		
+		</script>
+		
+	</body>
+</html>

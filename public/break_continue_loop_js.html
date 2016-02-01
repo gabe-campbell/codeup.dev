@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title></title>
+		
+		<style>
+
+		</style>
+	</head>
+
+	<body>
+		<script>
+			
+			// var random = Math.floor((Math.random()*50)+1);
+			
+			// while (random % 2 !=1) {
+			// 	random = Math.floor((Math.random()*50)+1);
+			// }
+
+			// console.log('Random odd number to skip is: ' + random);
+			// for(var i = 1; i <=50; i++) {
+			// 	if (i == random) {
+			// 		console.log('Yikes! Skipping number: ' + random);
+			// 	} else if (i % 2 ==1) {
+			// 		console.log('Here is an odd number: ' + i);
+			// 		continue;
+			// 	}
+			// }
+		
+
+		// for(var i = 1; i <= 100; i++) {
+		// 	if (i % 3 != 0 && i % 2 != 0) {
+		// 		console.log(i);
+		// 		continue;
+		// 	}
+		// }
+			// var notPrime = -1;
+			// var prime = 0;
+			// for(var i = 0; i <= 100; i++) {
+
+			// 	if (i % 3 != 0 && i % 2 != 0) {
+			// 		prime++
+			// 		console.log('Prime: ' + i);
+			// 		console.log('This is prime number #' + prime);
+			// 		console.log('There are ' + notPrime + ' numbers before this that are NOT prime');
+			// 		continue;
+			// 	} 
+
+			// 	notPrime++;
+			// }
+
+			var nonPrimeCounter = -1;
+			var prime = 0;
+
+			for(var i = 0; i <= 100; i++) {
+				if (i % 3 != 0 && i % 2 != 0) {
+					prime++;
+					console.log('Prime: ' + i);
+					console.log('This is prime number #' + prime);
+					console.log('There have been ' + nonPrimeCounter + ' Non-Prime numbers since the last prime number.');
+					nonPrimeCounter = 0;
+					console.log('_____________________________________________');
+					continue;
+				}
+				nonPrimeCounter++;
+			}
+
+
+		</script>
+		
+	</body>
+</html>

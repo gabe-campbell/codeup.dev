@@ -11,12 +11,8 @@
 
 	<body>
 		<script>
-			
+		"use strict";
 			// var myNameIs = 'Gabe'; 
-			var random = Math.floor((Math.random()*100)+1);
-			console.log(random);
-			random = random % 2;
-			console.log(random);
 
 
 			// function sayHello(name) {
@@ -28,14 +24,221 @@
 			// sayHello(myNameIs);
 			// sayHello(myNameIs);
 			// sayHello(myNameIs);
+			
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-			function isOdd(number) {
-				var message = "This number is " + ((random > 0) ? "odd":"even");
-				console.log(message);
-			}
+			// var random = Math.floor((Math.random()*100)+1);
+			// console.log(random);
+			// random = random % 2;
+			// console.log(random);
+			// function isOdd(number) {
+			// 	var message = "This number is " + ((random > 0) ? "odd":"even");
+			// 	console.log(message);
+			// }
 
-			isOdd(random);
+			// isOdd(random);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		// var numberOne = (Math.floor(Math.random()*10000)+1);
+		// console.log('Number One: ' + numberOne);
+		// var numberTwo = (Math.floor(Math.random()*10000)+1);
+		// console.log('Number Two: ' + numberTwo);
 		
+		// function sum(a,b) {
+		// 	var sum = a + b;
+		// 	console.log('Sum is ' + sum);
+		// }
+
+		// function diff(a,b) {
+		// 	if (a > b) {
+		// 		var diff = a - b;
+		// 	} else {
+		// 		var diff = b - a;
+		// 	}
+		// 	console.log('Difference is ' + diff);
+		// }
+
+		// function prod(a,b) {
+		// 	var prod = a * b;
+		// 	console.log('Product is ' + prod);
+		// }
+
+		// function quot(a,b) {
+		// 	var quot = a / b;
+		// 	var quotFixed = quot.toFixed(4);
+		// 	console.log('Quotient is ' + quotFixed);
+		// }
+
+		// function rmndr(a,b) {
+		// 	var rmndr = a % b;
+		// 	console.log('Remainder is ' + rmndr);
+		// }
+
+		// sum(numberOne, numberTwo);
+
+		// diff(numberOne, numberTwo);
+
+		// prod(numberOne, numberTwo);
+
+		// quot(numberOne, numberTwo);
+
+		// rmndr(numberOne, numberTwo);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		// var numberOne = (Math.floor(Math.random()*10000)+1);
+		// console.log('Number One: ' + numberOne);
+		// var numberTwo = (Math.floor(Math.random()*10000)+1);
+		// console.log('Number Two: ' + numberTwo);
+
+		// var resultSum = mySum(numberOne, numberTwo);
+		// var resultDiff = myDiff(numberOne, numberTwo);
+		// var resultProd = myProd(numberOne, numberTwo);
+		// var resultQuot = myQuot(numberOne, numberTwo);
+		// var resultRmndr = myRmndr(numberOne, numberTwo);
+
+		// function mySum(a,b) {
+		// 	resultSum = a + b;
+		// 	return resultSum;
+		// }
+
+		// function myDiff(a,b) {
+		// 	if (a > b) {
+		// 		resultDiff = a - b;
+		// 		return resultDiff;
+		// 	} else {
+		// 		resultDiff = b - a;
+
+		// 		return resultDiff;
+		// 	}
+		// }
+
+		// function myProd(a,b) {
+		// 	result = a * b;
+		// 	console.log(resultProd);
+		// 	return resultProd;
+		// }
+
+		// function myQuot(a,b) {
+		// 	var quotFix = a / b; 
+		// 	quotFix.toFixed(4);
+		// 	resultQuot = quotFix;
+		// 	return resultQuot;
+		// }
+
+		// function myRmndr(a,b) {
+		// 	resultProd = a % b;
+		// 	return resultRmndr;
+		// }
+
+		// function logResult() {
+		// 	console.log();
+		// }
+
+		// logResult(resultSum);
+		// logResult(resultDiff);
+		// logResult(resultProd);
+		// logResult(resultQuot);
+		// logResult(resultRmndr);
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+		// var numberOne = (Math.floor(Math.random()*100)+1);
+		// console.log('Number One: ' + numberOne);
+		// var numberTwo = (Math.floor(Math.random()*100)+1);
+		// console.log('Number Two: ' + numberTwo);
+
+		var numberOne = prompt('Pick a number');
+		console.log(numberOne);
+		var numberTwo = prompt('Pick another number');
+		console.log(numberTwo);
+
+		var sumRslt;
+		var diffRslt;
+		var prodRslt;
+		var quotRslt;
+		var rmndrRslt;
+
+		function allCheck(a,b) {
+			function numCheck(a,b) {
+				if(true && true) {
+					if (true) {
+						function numCheckA(a) {
+		    				return typeof(a) === 'number';
+						}
+						return a;
+					} else if (false) {
+						alert("One of your parameters is not a number.");
+					}
+
+					if (true) {
+						function numCheckB(b) {
+							return typeof(b) === 'number';
+						}
+						return b;
+					} else if (false) {
+						alert("One of your parameters is not a number");
+					}
+				}
+			}
+		}
+
+		function sum(a,b) {
+			allCheck(a,b);
+			sumRslt = a + b;
+			return sumRslt;
+		}
+
+		function diff(a,b) {
+			allCheck(a,b);
+			if (a > b) {
+				diffRslt = a - b;
+			} else {
+				diffRslt = b - a;
+			}
+			return diffRslt;
+		}
+
+		function prod(a,b) {
+			allCheck(a,b);
+			prodRslt = a * b;
+			return prodRslt;
+		}
+
+		function quot(a,b) {
+			allCheck(a,b);
+			quotRslt = a / b;
+			return quotRslt;
+		}
+
+		function rmndr(a,b) {
+			allCheck(a,b);
+			rmndrRslt = a % b;
+			return rmndrRslt;
+		}
+
+		function logFunc(c) {
+			console.log(c);
+		}
+
+		sum(numberOne, numberTwo);
+		logFunc("The sum is " + sumRslt);
+
+		diff(numberOne, numberTwo);
+		logFunc("The difference is " + diffRslt);
+
+		prod(numberOne, numberTwo);
+		logFunc("The product is " + prodRslt);
+
+		quot(numberOne, numberTwo);
+		logFunc("The quotient is " + quotRslt);
+
+		rmndr(numberOne, numberTwo);
+		logFunc("The remainder is " + rmndrRslt);
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		</script>
 		
 	</body>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<script>
+
+			// // var myAudio = new Audio("chaching.mp3");
+
+			// alert("This is an alert");
+			// var confirmed; 
+			// if (confirm('Are you sure you\'ve been alerted?')) {
+			// 	// myAudio.play();
+			// }
+			// alert("Are you POSITIVE you've been alerted?");
+			// alert("Absolutely, 100% positive?");
+			// alert("Alright I think you've been alerted enough");
+			// var response = prompt("What do you think of this alert? \n (Insert negative adjective here)");
+			// alert('Well I think you\'re pretty ' + response + ' too.');
+			// alert('Jerk.');
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+			var username = prompt('What is your name?');
+			alert('Hi ' + username + '!');
+
+			var likePizza = prompt('Do you like pizza?');
+			if (likePizza == "yes") {
+				alert('You\'re cool, I like you.');
+			} else if(likePizza == 'no') {
+				alert('Well you\'re stupid');
+				alert('And I hate you.');
+			} else {
+				alert('It was a simple yes or no question stupid');
+				var likePizza2 = prompt('Do you like pizza?');
+					if (likePizza2 == 'yes') {
+						alert('Now was that so hard?');
+					} else if (likePizza2 == 'no') {
+						alert('Why didn\'t you just say that in the first place');
+					} else {
+						alert('You really aren\'t the brightest aren\'t you?');
+						var likePizza3 = prompt('Now for the last time, do you or don\'t you like pizza?');
+							if (likePizza3 == 'yes') {
+								alert('You\'re incredibly indecisive');
+							} else if (likePizza3 == 'no') {
+								alert('Just go away already then.');
+							} else {
+								alert('I\'m done with you.');
+								window.location = "http://www.youtube.com/" ;
+							}
+					}
+			}
+		</script>
+	</body>
+</html>

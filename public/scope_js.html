@@ -240,17 +240,95 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-		var names = new Array('Gabe', 'Fabian', 'Rob', 'Linda');
-		console.log(names.length);
+		// var names = new Array('Gabe', 'Fabian', 'Rob', 'Linda');
+		// var number = 1;
+		// console.log(names.length);
 
-		function namesPrint() {
-			for (var i = 0; i<=3; i++) {
-				console.log(names[i]);
-			}
+		// function namesPrint() {
+		// 	for (var i = 0; i<=names.length - 1; i++) {
+		// 		console.log(names[i]);
+		// 	}
+		// }
+
+		// names.forEach(function(element, index, array) {
+		// 	console.log('The name at index ' + index + ' is ' + element);
+		// });
+		// namesPrint();
+
+		// for (var i = 0; i <= pokemon.length - 1; i++) {
+		// 	console.log('#' + number + ' ' + pokemon[i]);
+		// 	number++;
+		// }
+		
+		// var pokemon = new Array('Bulbasaur','Ivysaur','Venusaur','Charmander','Charmeleon','Charizard','Squirtle','Wartortle','Blastoise','Caterpie','Metapod','Butterfree','Weedle','Kakuna','Beedrill','Pidgey','Pidgeotto','Pidgeot','Rattata','Raticate','Spearow','Fearow','Ekans','Arbok','Pikachu','Raichu','Sandshrew','Sandslash','Nidoran♀','Nidorina','Nidoqueen','Nidoran♂','Nidorino','Nidoking','Clefairy','Clefable','Vulpix','Ninetales','Jigglypuff','Wigglytuff','Zubat','Golbat','Oddish','Gloom','Vileplume','Paras','Parasect','Venonat','Venomoth','Diglett','Dugtrio','Meowth','Persian','Psyduck','Golduck','Mankey','Primeape','Growlithe','Arcanine','Poliwag','Poliwhirl','Poliwrath','Abra','Kadabra','Alakazam','Machop','Machoke','Machamp','Bellsprout','Weepinbell','Victreebel','Tentacool','Tentacruel','Geodude','Graveler','Golem','Ponyta','Rapidash','Slowpoke','Slowbro','Magnemite','Magneton','Farfetchd','Doduo','Dodrio','Seel','Dewgong','Grimer','Muk','Shellder','Cloyster','Gastly','Haunter','Gengar','Onix','Drowzee','Hypno','Krabby','Kingler','Voltorb','Electrode','Exeggcute','Exeggutor','Cubone','Marowak','Hitmonlee','Hitmonchan','Lickitung','Koffing','Weezing','Rhyhorn','Rhydon','Chansey','Tangela','Kangaskhan','Horsea','Seadra','Goldeen','Seaking','Staryu','Starmie','Mr. Mime','Scyther','Jynx','Electabuzz','Magmar','Pinsir','Tauros','Magikarp','Gyarados','Lapras','Ditto','Eevee','Vaporeon','Jolteon','Flareon','Porygon','Omanyte','Omastar','Kabuto','Kabutops','Aerodactyl','Snorlax','Articuno','Zapdos','Moltres','Dratini','Dragonair','Dragonite','Mewtwo','Mew');
+
+
+		// 	var pokemonRandom = (Math.floor(Math.random() * pokemon.length) + 1);
+			
+		// 	console.log(pokemon[pokemonRandom]);
+		// 	if (pokemonRandom > 0 && pokemonRandom < 10) {
+		// 		window.location = "http://www.serebii.net/pokedex/00" + pokemonRandom + ".shtml";
+		// 	} else if (pokemonRandom >= 10 && pokemonRandom < 100) {
+		// 		window.location = "http://www.serebii.net/pokedex/0" + pokemonRandom + ".shtml";
+		// 	} else if (pokemonRandom >= 100) {
+		// 		window.location = "http://www.serebii.net/pokedex/" + pokemonRandom + ".shtml";
+		// 	}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+		var planets = new Array('Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune');
+
+		function logPlanets() {
+			console.log(planets);
+			console.log('______________________________________________________');
 		}
 
-		namesPrint();
-		
+		var planetsLength = planets.length;
+
+		logPlanets();
+
+		console.log('Adding the Sun to the beginning of the planets array');
+		planets.splice(0, 0, 'The Sun');
+		logPlanets();
+
+		console.log('Adding Pluto to end of array');
+		planets.splice(planets.length, 0, 'Pluto');
+		logPlanets();
+
+		console.log('Removing the Sun from the array');
+		planets.splice(0,1);
+		logPlanets();
+
+		console.log('Removing Pluto from the array');
+		planets.splice(planetsLength, 1);
+		logPlanets();
+
+		console.log('Finding and logging Earth');
+		console.log(planets[2]);
+		logPlanets();
+
+		console.log('Using Splice to remove the planet after Earth');
+		var planetsSplice = planets.splice(3,1);
+		logPlanets();
+		console.log('This is the planet we removed: ' + planetsSplice);
+
+		console.log('Using splice to add the planet after Earth back into the array');
+		planets.splice(3, 0, planetsSplice);
+		logPlanets();
+
+		console.log('Reversing the planets array');
+		planets.reverse();
+		logPlanets();
+
+		console.log('Sort the array');
+		planets.reverse();
+		planets.sort();
+		logPlanets();
+
+
+
+
+
 		</script>
 		
 	</body>

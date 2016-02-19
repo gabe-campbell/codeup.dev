@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>
+			
+		</title>
+
+	</head>
+
+	<body>
+		<script>
+		// 	// create a circle object
+		// var circle = {
+		//     radius: 3,
+		//     getArea: function () {
+		//         // todo: finish this method
+		//         // hint: area = pi * radius^2
+		//         var area = Math.PI * Math.pow(this.radius, 2);
+		//         return area;
+		//     },
+		//     logInfo: function (round) {
+		//     	var area = this.getArea();
+		//         if (round) {
+		//         	area = Math.round(area);
+		//         }
+		//         console.log('Area of a circle with radius: ' + this.radius + ' , is: ' +area);
+		//     }
+		// };
+
+		// // log info about the circle
+		// circle.logInfo(false);
+		// circle.logInfo(true);
+
+		// // todo:
+		// // Change the radius of the circle to 5.
+		// circle.radius = 5;
+
+		// // log info about the circle
+		// circle.logInfo(false);
+		// circle.logInfo(true);
+
+		// var countdown = 10;
+		// var interval = 1000;
+
+		// function updateTimer() {
+		// 	if (countdown == 0) {
+		// 		alert('BOOM');
+		// 		document.body.innerHTML = '';
+		// 	} else if (countdown > 0){
+		// 		document.getElementById('timer').innerHTML = countdown;
+		// 	}
+		// 	countdown--;
+		// } 
+
+		// var intervalId = setInterval(updateTimer, interval);
+
+		// function defuseTheBomb() {
+
+		// }
+
+		// var defuser = document.getElementById('defuser');
+		// defuser.addEventListener('click' )
+
+		var lottery = (Math.floor(Math.random() * 1000) +1);
+		var playerOneNumber = 0;
+		var playerTwoNumber = 0;
+		var rounds = 1;
+		console.log('The winning number is: ' + lottery)
+
+		function playerOne (lottery) {
+			playerOneNumber = (Math.floor(Math.random() * 1000) +1);
+			console.log('Turn #' + rounds);
+			if (lottery === playerOneNumber) {
+				// console.log(playerOneNumber);
+				return playerOneNumber;
+			} else {
+				// console.log(playerOneNumber);
+				return playerOneNumber;
+			}
+		}
+
+		function turns() {
+			playerOne();
+		}
+
+		while (playerOneNumber != lottery) {
+			turns();
+			if (playerOneNumber == lottery) {
+				console.log('You won the lottery!!!');
+			} //else if (playerTwoNumber == lottery) {
+			// 	console.log('Player Two won the lottery!!!');
+			// }
+			rounds++;
+		}
+
+		</script>
+
+	</body>
+
+</html>

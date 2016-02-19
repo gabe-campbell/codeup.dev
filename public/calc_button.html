@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head></head>
+	<body>
+		<button><a href="calc_v1.html"
+			onclick="window.open('target.htm', 'myWin', 'toolbar=no, directories=no, 
+			location=no, status=yes, menubar=no, resizable=no, scrollbars=yes, width=600, 
+			height=400'); return false">Calculator
+		</button>
+	<script>
+				function openWin() {
+		    myWindow = window.open("", "", "width=100, height=100");  // Opens a new window
+		}
+
+		function resizeWin() {
+		    myWindow.resizeTo(250, 250);                             // Resizes the new window
+		    myWindow.focus();                                        // Sets focus to the new window
+		}
+
+	</script>
+	</body>
+</html>

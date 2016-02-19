@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <table id="records_table" border='1'>
+    <tr>
+      <th>Rank</th>
+      <th>Content</th>
+      <th>UID</th>
+    </tr>
+  </table>
+  <script>
+  var jsonData = "[/data/inventory.json]";
+    $.ajax({
+      url: '/data/inventory.json/',
+      type: 'POST',
+      data: {
+        json: jsonData
+      },
+      success: function (response) {
+        var trHTML = '';
+        $.each(response, function (i, item) {
+          trHTML += '<tr><td>' + item.rank + '</td><td>' + item.content + '</td><td>' + item.UID + '</td></tr>';
+        });
+        $('#records_table').append(trHTML);
+      }
+    });
+  </script>
+</body>
+</html>

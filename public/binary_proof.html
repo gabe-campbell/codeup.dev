@@ -1,0 +1,1338 @@
+<!DOCTYPE.html>
+<html>
+	<head></head>
+	<body>
+
+		<form>
+			<input type="text" id="binArray" readonly>
+		</form>
+		<script>
+
+			// var binArray = []; //The array that the actual binary will be put into
+			// var bin; // the value that is taken from the user input (the inputAnswer on calc_v2)
+			// var binVal; // used with modulo to determine odd or even end value for 1's or 0's
+
+
+			// bin = prompt('Please enter a number');
+			// function binaryConvert (binArray, valPrompt) {
+			// 	binVal = bin % 2;
+			// 	bin = bin / 2;
+			// 		if (binVal === 0 && bin >= 1) {
+			// 			binArray.unshift('0');
+			// 			console.log(binArray.length);
+			// 		} else if (binVal === 1 && bin >=1) {
+			// 			binArray.unshift('1');
+			// 			console.log(binArray.length);
+			// 		} else {
+			// 			console.log(binArray.length);
+			// 		}
+			// }
+
+			var binArray = [];
+			var bin = 777;
+			var binOrigin = bin;
+			var binVal = 0;
+
+			console.log(bin);
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin < 1) {
+				console.log('End of number');
+			}
+
+			binVal = bin % 2;
+			if (binVal === 0 && bin > 1) {
+				binArray.unshift(binVal);
+				binVal = 0;
+			} else if (binVal === 1 && bin > 1) {
+				binArray.unshift(binVal);
+				bin = bin - binVal;
+				binVal = 0;
+			} else if (bin == 1) {
+				binArray.unshift('1');
+				var binString = binArray.join('');
+				console.log(binOrigin + ' = ' + binString);
+			}
+			bin = bin / 2;
+			console.log(bin);
+
+			if (bin <= 1) {
+				console.log('End of number');
+			}
+
+			console.log('\n');
+
+
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>	
+	<style></style>
+</head>
+
+<body>
+	<h1 class="elementTags" id="h1Tag">This is a header</h1>
+	<p class="elementTags" id="pTag">This is a paragraph</p>
+	<ul class="elementTags" id="ulTag">This is an unordered list
+		<li class="elementTags" id='liTag'>This is a list item</li>
+		<li class="elementTags" id='liTag'>This is a second list item</li>
+
+	</ul>
+	<div class="elementTags" id="divTag">This is a div</div>
+	
+	<script src="/js/jquery.js">
+		$(document).ready(function() {
+		    var header = $('#h1Tag');
+		    var parapraph = $('#pTag');
+		    var uList = $('#ulTag');
+		    var liItem = $('#liTag');
+		    var divTag = $('#h1Tag');
+
+		    var allItems = $('.elementTags');
+
+		    alert(header.html() + '\n' +  paragraph.html() + '\n' +  uList.html() + '\n' +  liItem.html() + '\n' +  divTag.html() + '\n' + allItems.html());
+		});
+	</script>
+
+</body>
+</html>

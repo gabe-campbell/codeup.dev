@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+    html, body { height: 100%; margin: 0; padding: 0; }
+    #map { 
+        height: 250px;
+        width: 500px;
+        margin-bottom: 25px; 
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #map2 { 
+        height: 250px;
+        width: 500px; 
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+    #map3 { 
+        height: 250px;
+        width: 500px; 
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+    <script type="text/javascript">
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 40.702523, lng: -73.993334},
+        zoom: 5,
+        });
+    }
+
+  var address = "300 Alamo Plaza, San Antonio, TX, 78205";
+  var geocoder = new google.maps.Geocoder();
+  geocoder.geocode({ "address": address }, function(results, status) {
+
+           // Check for a successful result
+           if (status == google.maps.GeocoderStatus.OK) {
+
+               // Recenter the map over the address
+               map.setCenter(results[0].geometry.location);
+           } else {
+
+               // Show an error message with the status if our request fails
+               alert("Geocoding was not successful - STATUS: " + status);
+           }
+       });
+
+  var codeup = { lat: 29.428459, lng: -98.492433 };
+  var marker = new google.maps.Marker({
+    position: codeup,
+    map: map
+});
+  </script>
+</div>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeZU4U-RxwRw56mgmV9a6A2U8uj1I3yYw&callback=initMap">
+</script>
+</body>
+</html>

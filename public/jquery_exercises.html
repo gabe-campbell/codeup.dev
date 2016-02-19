@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="/js/jquery.js"></script>
+    <script>
+      "use strict";
+
+      // $(document).ready(function() {
+      //   var contents = $('#header');
+      //   alert(contents.html());
+
+      // });
+
+      // $(document).ready(function() {
+      //   var contents = $('#paragraph');
+      //   alert(contents.html());
+
+      // });
+
+      // $(document).ready(function() {
+      //     var contents = $('#unordered');
+      //     alert(contents.html());
+      //   });
+
+      // $(document).ready(function() {
+      //   var contents = $('listitem');
+      //   alert(contents.html());
+      // });
+
+      // $(document).ready(function() {
+      //   $('.codeup').css('border', 'solid red 1px');
+
+      // });
+
+      // $(document).ready(function() {
+      //       $('.important').css('background-color', '#FF0');
+      // });
+
+
+      // $(document).ready(function() {
+      //     $('li').css('font-size', '20px');
+      //     $('li').css('background-color', 'yellow');
+      //     $('h1').css('background-color', 'yellow');
+      //     $('p').css('background-color', 'yellow');
+      //     var contents = $('h1');
+      //     alert (contents.html());
+      // });
+
+      // $(document).ready(function() {
+      //   $('li, h1, p').css('border', '3px solid green');
+      // });
+
+      // $(document).ready(function() {
+      //     $('*').css('border', '2px solid blue');
+      // });
+
+
+      $(document).ready(function() {
+        $('h1').click(function() {
+          $('h1').css('background-color', 'red');
+        });
+      });
+
+      $(document).ready(function() {
+        $('p').dblclick(function() {
+          $('p').css('font-size', '18px');
+        });
+      });
+
+      $(document).ready(function() {
+        $('li').hover(
+            function() {
+              $(this).css('background-color', 'red');
+            },
+
+            function() {
+              $(this).css('background-color', 'white');
+            }
+          );
+      });
+    </script>
+  </head>
+
+  <body>
+    
+    <!-- <h1 class="element" id="header">This is a header</h1>
+    <p class="element" id="paragraph">This is the first paragraph</p>
+    <p class="element" id="paragraphTwo">This is the second paragraph</p>
+    <ul class="element" id="unordered">This is an unordered list</ul>
+      <li class="element" id="listitem">This is a list item</li>
+    <div class="element" id="div">This is a div</div> -->
+
+    <!-- <h1 class="codeup">This is a header</h1>
+    <h1 class="codeup">This is a header</h1>
+    <h1 class="codeup">This is a header</h1>
+    <h1 id="codeup">This is a header</h1>
+
+    <p class="important">This is also very important.</p> -->
+
+    <h1>This is a header</h1>
+    <h1>This is a header</h1>
+    <h1>This is a header</h1>
+
+    <li>This is a list item</li>
+    <li>This is a list item</li>
+    <li>This is a list item</li>
+
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+    <p>This is a paragraph</p>
+
+  </body>
+
+</html>

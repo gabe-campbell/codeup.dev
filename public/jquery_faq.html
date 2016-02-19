@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script src="/js/jquery.js"></script>
+    <style>
+      .invisible {
+        display: none;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- <dl>
+      <dt class="dTerm" id="termOne">Definition Term 1</dt>
+      <dd class="dDscrpt" id="dcrptOne">Definition Description 1</dd>
+      <dt class="dTerm" id="termTwo">Definition Term 2</dt>
+      <dd class="dDscrpt" id="dcrptTwo">Definition Description 2</dd>
+      <dt class="dTerm" id="termThree">Definition Term 3</dt>
+      <dd class="dDscrpt" id="dcrptThree">Definition Description 3</dd>
+      <dt class="dTerm" id="termFour">Definition Term 4</dt>
+      <dd class="dDscrpt" id="dcrptFour">Definition Description 4</dd>
+      <dt class="dTerm" id="termFive">Definition Term 5</dt>
+      <dd class="dDscrpt" id="dcrptFive">Definition Description 5</dd>
+      <dt class="dTerm" id="termSix">Definition Term 6</dt>
+      <dd class="dDscrpt" id="dcrptSix">Definition Description 6</dd>
+      <dt class="dTerm" id="termSeven">Definition Term 7</dt>
+      <dd class="dDscrpt" id="dcrptSeven">Definition Description 7</dd>
+      <dt class="dTerm" id="termEight">Definition Term 8</dt>
+      <dd class="dDscrpt" id="dcrptEight">Definition Description 8</dd>
+      <dt class="dTerm" id="termNine">Definition Term 9</dt>
+      <dd class="dDscrpt" id="dcrptNine">Definition Description 9</dd>
+      <dt class="dTerm" id="termTen">Definition Term 10</dt>
+      <dd class="dDscrpt" id="dcrptTen">Definition Description 10</dd>
+      <br>
+      <a href="#" id="toggle">Click to toggle definitions</a>
+    </dl> -->
+
+      <ul id="listOne">
+        <h3>Park One</h3>
+        <li class="bold">Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+      </ul>
+      <ul id="listTwo">
+        <h3>Park Two</h3>
+        <li class="bold">Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+      </ul>
+      <ul id="listThree">
+        <h3>Park Three</h3>
+        <li class="bold">Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+        <li>Fact</li>
+      </ul>
+    
+    <script>
+    "use strict";
+
+      // $(document).ready(function() {
+      //   $('#toggle').click(function(event) {
+      //     event.preventDefault();
+      //     $('.dDscrpt').toggleClass('invisible');
+      //   });
+      // });
+
+
+      $(document).ready(function() {
+        $('ul').each(function(index){
+          $('.bold').css('font-weight', 'bold');
+        })
+      });
+
+      // $(document).ready(function() {
+      //   $('#listTwo').each(function(index){
+      //     $('li').first().css('font-weight', 'bold');
+      //   })
+      // });
+
+      // $(document).ready(function() {
+      //   $('#listThree').each(function(index){
+      //     $('li').first().css('font-weight', 'bold');
+      //   })
+      // });
+    </script>
+  </body>
+
+</html>

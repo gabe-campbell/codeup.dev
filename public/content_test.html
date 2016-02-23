@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/css/content.css">
+  <script src="/js/jquery.js"></script>
+  <!--     <script src="/js/content.js"></script> -->
+</head>
+
+<body>
+  <div id="testDiv"></div>
+  <script type="text/javascript">
+    $(function() {
+        // $("#testDiv").load("content.html", function(responseText, statusText, xhr) {
+        //     if (statusText == "success")
+        //       alert("Successfully loaded the content!");
+        //     if (statusText == "error")
+        //       alert("An error occurred: " + xhr.status + " - " + xhr.statusText);
+        //     alert("All done here.");
+        //   });
+
+        // $.get("content.html", function(data, textStatus) {
+        //     alert("Done, with the following status: " + textStatus + ". Here is the response: " + data);
+        //   });
+
+        $.post("content.html",
+        {
+          firstName: "John",
+          lastName: "Smith",
+          age: "24"
+        },
+        function(data, textStatus)
+        {
+          alert("Response from server: " + data);
+        });
+      });
+
+    </script>
+    
+  </body>
+  </html>

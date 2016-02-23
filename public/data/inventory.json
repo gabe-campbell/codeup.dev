@@ -1,5 +1,3 @@
-<script>
-var data =
 [
     {
         "title": "Hammer",
@@ -33,5 +31,4 @@ var data =
         ],
         "price": 10
     }
-];
-</script>
+]

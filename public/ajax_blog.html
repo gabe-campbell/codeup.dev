@@ -1,1 +1,41 @@
-ajax_blog.html
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="posts"></div>
+
+    <script>
+      var request = $.get("/data/blog.json");
+
+      request.fail(function(response) {
+        console.log(response);
+      });
+
+      request.done(function(response) {
+        console.log(response);
+        var contentString = '';
+        var posts = response;
+        posts.forEach(function(post, index) {
+
+          contentString += '<h2>' + post.title + '</h2>';
+          contentString += '<p>' + post.content + '</p>';
+          contentString += '<p>' + post.categories + '</p>';
+          contentString += '<p>' + post.date + '</p>';
+        });
+
+        $('#posts').append(contentString);
+
+      });
+
+    </script>
+
+
+
+</body>
+
+</html>

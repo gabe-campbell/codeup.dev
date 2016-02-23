@@ -3,7 +3,6 @@
 <head>
     <title>Online Store</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="/js/inventory_js.js"></script>
 </head>
 <body>
 
@@ -20,6 +19,30 @@
     </thead>
     <tbody id="insertProducts"></tbody>
 </table>
+
+<script>
+    var request = $.get("/data/inventory.json");
+    
+    request.fail(function(response) {
+        console.log(response);
+    });
+
+    request.done(function(response) {
+        console.log(response);
+        var contentString = '';
+        var items = response;
+        items.forEach(function(item, index) {
+
+            contentString += '<tr>';
+            contentString += '<td>' + item.title + '</td>';
+            contentString += '<td>' + item.quantity + '</td>';
+            contentString += '<td>' + item.price + '</td>';
+            contentString += '<td>' + item.categories + '</td>';
+            contentString += '</tr>';
+        });
+        $('#insertProducts').append(contentString);
+    });
+</script>
 
 
 

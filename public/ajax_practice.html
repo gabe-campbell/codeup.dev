@@ -1,0 +1,23 @@
+<!DOCTYPE html!>
+<html>
+  <head>
+    <title></title>
+    <script src="/js/jquery.js"></script>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      $(function() {
+        $.ajax("/ajax_practice.json", {
+          type:"GET",
+          data: {
+            name: "John",
+            location: "Boston"
+          }
+        });
+      });
+
+      
+    </script>
+  </body>
+</html>

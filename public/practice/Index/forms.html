@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forms</title>
+  </head>
+  <body>
+    <p>This is going to be a list of forms</p>
+    <p>Form action attribute controls what page on the server will recieve the information after submitting</p>
+    <p>Form method attribute controls how the information will be sent, either by a GET or a POST request</p>
+    <p>Form id attribute controls how the form is identified from other forms on the page</p>
+    <form action="forms.html" method="get">
+      <p>Input Name attribute is required to identify the type of information being submitted</p>
+      <p>Input type attribute determines what type of input is being used</p>
+      <p>Input maxlength attribute determines the maximum length of characters that can be entered</p>
+      <p>Username:
+        <input type="text" name="username" maxlength="20">
+      </p>
+      <p>A password input type will hide characters so they cannot be seen</p>
+      <p>Password:&nbsp
+        <input type="password" name="password" maxlength="20">
+      </p>
+      <hr>
+      <p>A textarea tag defines a Text Area with a name and an ID, height and width of the area should be controlled with CSS</p>
+      <p>
+        Text Area:
+      </p>
+        <textarea name="comments" id="comments" ></textarea>
+        <hr>
+        <p>A radio input type creates a radio button, meant to be made in a series for users to select one out of several options</p>
+        <p>Once a selection has been made, none of the buttons may be unchecked, forcing the user to select an option</p>
+        <p>Select a number:
+          <input type="radio" name="class" value="idOne">One
+          <input type="radio" name="class" value="idTwo">Two
+          <input type="radio" name="class" value="idThree">Three
+          <input type="radio" name="class" value="idFour">Four
+          <input type="radio" name="class" value="none" checked="checked">None
+        </p>
+        <hr>
+        <p>A checkbox input type creates a checkbox, meant to be made in a series for users to select one or more options</p>
+        <p>Once a selection has been made it can be made unmade</p>
+        <p>Select one or more colors:
+          <input type="checkbox" name="colors" value="red">Red
+          <input type="checkbox" name="colors" value="orange">Orange
+          <input type="checkbox" name="colors" value="yellow">Yellow
+          <input type="checkbox" name="colors" value="green">Green
+          <input type="checkbox" name="colors" value="blue">Blue
+          <input type="checkbox" name="colors" value="indigo">Indigo
+          <input type="checkbox" name="colors" value="violet">Violet
+        </p>
+        <hr>
+        <p>A select box will bring up a dropdown menu with several options where one can be selected</p>
+        <p>Select your favorite console</p>
+        <select name="devices" id="devices">
+          <option value="">-Select One-</option>
+          <option value="xbox_one">Xbox One</option>
+          <option value="playstation_4">Playstation 4</option>
+          <option value="wii_u">Wii U</option>
+        </select>
+        <hr>
+        <p>A multiple select box will also bring up a dropdown menu, but with the multiple attribute to allow multiple selections</p>
+        <p>multiple items can be selected by pressing Command-click or Ctrl-click on iOS or Windows</p>
+        <select name="shows" id="shows" multiple="multiple">
+          <option value="sunny">It's Always Sunny in Philadelphia</option>
+          <option value="rick_morty">Rick & Morty</option>
+          <option value="daredevil">Daredevil</option>
+          <option value="got">Game of Thrones</option>
+          <option value="boardwalk">Boardwalk Empire</option>
+        </select>
+        <hr>
+        <p>A file input type will alow the user to select a file from their computer to upload</p>
+        <p>Upload an Image</p>
+        <input type="file" name="user_image"><br>
+        <input type="submit" name="submit" value="Upload">
+        <hr>
+        <p>An image can also be used as a submit button with the input type "image"</p>
+        <input type="image" src="button_glossy_red.svg" height="25px" width="25px">
+        <hr>
+        <p>A button tag can be used similarly to the image input, allows more control over the appeareance as text and images can be displayed toegther within the button</p>
+        <hr>
+        <p>Labels can be user fo all inputs instead of using a p tag, labels will use the for attribute to direct to an input id, these two values must match</p>
+        <p>A fieldset tag will group together input elements with a legend tag title for the group</p>
+        <p>A required attribute on any input type will force the error to input a value into the input, otherwise the form will not be able to be sent to the server</p>
+        <hr>
+        <p>A date input type allows the user to select a date either through typing it in, using selecting a field and using the arrows, or by using the dropdown calendar</p>
+        <input type="date" name="date">
+        <hr>
+        <p>An email input type requires the user to input a valid email address</p>
+        <input type="email" name="email">
+        <label for="email">Email</label>
+        <p>A url input type requires the user to input a valid url</p>
+        <input type="url" name="website">
+        <label for="website">Website</label>
+        <hr>
+        <p>A search input type allows the user to input a query to be searched</p>
+        <p>Search:</p>
+        <input type="search" name="search" placeholder="Enter keyword">
+        <input type="submit" value="Search">
+    </form>
+    <br>
+    <br>
+    <br>
+
+  </body>
+</html>

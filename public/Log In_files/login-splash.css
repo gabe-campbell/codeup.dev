@@ -1,0 +1,111 @@
+body {
+  height: 800px;
+  width: 100%;
+}
+
+.container {
+  background-color: #e9ece5;
+  
+  height: 100%;
+  width: 100%;
+
+  margin-top: -10px;
+
+}
+
+.login {
+  background-color: #3b3a36;
+
+  border-radius: 8px;
+
+  box-shadow: 0px 5px 5px 5px #c0dfd9;
+
+  height: 40%;
+  width: 50%;
+
+  position: relative;
+  top: 120px;
+  left: 360px;
+}
+
+
+#password {
+  background-color: #e9ece5;
+  height: 25px;
+
+/*  font-size: 30px;*/
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+
+  height: 25px;
+  width: 250px;
+
+  border-radius: 3px;
+
+  border-style: none;
+
+  position: relative;
+  left: 145px;
+  top: 100px;
+}
+
+#passwordLabel {
+  font-size: 30px;
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  color: #e9ece5;
+  font-weight: 900;
+
+   position: relative;
+  left: 125px;
+  top: 105px;
+}
+
+#submit {
+  background-color: #e9ece5;
+
+  border-radius: 3px;
+
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  color: #3b3a36;
+
+  border-style: none;
+
+  height: 50px;
+  width: 425px;
+
+  padding: 20px;
+
+  position: relative;
+  left: 125px;
+  top: 125px;
+}
+
+#username {
+  background-color: #e9ece5;
+
+  height: 25px;
+  width: 250px;
+
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+
+  border-radius: 3px;
+
+  border-style: none;
+  
+  position: relative;
+  left: 150px;
+  top: 100px;
+
+}
+
+#usernameLabel {
+  font-size: 30px;
+  font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+  color: #e9ece5;
+  font-weight: 900;
+
+  position: relative;
+  left: 125px;
+  top: 105px;
+}

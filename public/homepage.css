@@ -1,0 +1,31 @@
+body {
+  height: 700px;
+  width: 100%;
+}
+
+.container {
+  background-color: #e9ece5;
+  
+  height: inherit;
+  width: inherit;
+
+  margin-top: -10px;
+
+  position: relative;
+
+  right: 10px;
+
+}
+
+.topbar {
+  background-color: #3b3a36;
+
+  box-shadow: 0px 10px 2px #c0dfd9;
+
+  height: 50px;
+  width: 110%;
+  
+  margin: -10px;
+
+  position: fixed;
+}

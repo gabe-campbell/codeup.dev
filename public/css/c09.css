@@ -121,7 +121,7 @@ input[type=submit]:hover {
   font-family: arial;
   width: 640px;
   height: 420px;
-  background-image: url(../images/postcard.png);
+  background-image: url('../images/postcard.png');
   float: left;}
 p, .postcard div {overflow: hidden;}
 .postcard div {

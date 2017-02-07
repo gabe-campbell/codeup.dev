@@ -1,0 +1,9 @@
+body {
+  width: 100%;
+}
+.container_12 {
+  height: 25%;
+  width: 960px;
+  background-color: black;
+  margin: 0px 10px;
+}

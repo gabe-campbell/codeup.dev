@@ -16,45 +16,5 @@
             "sugar"
         ],
         "date": "February 14, 2015"
-    }, {
-        "title": "The Third Post",
-        "content": "SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT ",
-        "categories": [
-            "SamplOne",
-            "SampleTwo",
-            "SampleThree",
-            "SampleFour"
-        ],
-        "date": "February 14, 2015"
-    }, {
-        "title": "The Fourth Post",
-        "content": "SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT ",
-        "categories": [
-            "SamplOne",
-            "SampleTwo",
-            "SampleThree",
-            "SampleFour"
-        ],
-        "date": "February 14, 2015"
-    }, {
-        "title": "The Fifth Post",
-        "content": "SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT ",
-        "categories": [
-            "SamplOne",
-            "SampleTwo",
-            "SampleThree",
-            "SampleFour"
-        ],
-        "date": "February 14, 2015"
-    }, {
-        "title": "The Sixth Post",
-        "content": "SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT SAMPLE TEXT ",
-        "categories": [
-            "SampleOne",
-            "SampleTwo",
-            "SampleThree",
-            "SampleFour"
-        ],
-        "date": "February 14, 2015"
     }
 ]

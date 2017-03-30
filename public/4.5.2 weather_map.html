@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+  <div id="weatherContainer">
+    <img  id="logo" src="images/weather.png" alt="weather logo">
+    <label id="logoLabel" for="logo">Weather Forecast</label>
+    <form id="latlngContainer">
+      <label class="latlngLabels" id="latLabel" for="lat">Latitude: </label>
+      <input type="text" id="lat">
+      <label class="latlngLabels" id="longLabel" for="lng">Longitude: </label>
+      <input type="text" id="lng">
+      <button id="latlngSubmit">Submit Coordinates</button>
+    </form>
+    <h1 id="city">San Antonio</h1>
+    <div id="dailyContainer"></div>
+    <div id="weatherMap"></div>
+  </div>
+  <script src="js/jquery-1.11.0.js"></script>
+  <script src="js/weather.js" charset="utf-8"></script>
+</body>
+</html>

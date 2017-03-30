@@ -1,0 +1,88 @@
+#weatherContainer {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #ABDCFD;
+}
+
+#logo {
+  margin: 10px;
+}
+
+#logoLabel {
+  color: #3e9bd8;
+  text-shadow: 1px 1px white;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  top: -50px;
+}
+
+#city {
+  color: #3e9bd8;
+  text-shadow: 1px 1px white;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  top: -70px;
+  left: 153px;
+}
+
+.dailyWeather {
+  min-height: 15vh;
+  width: 13%;
+  background-color: none;
+  color: #3e9bd8;
+  font-weight: 600;
+  font-size: 20px;
+  text-shadow: 1px 1px white;
+  position: relative;
+  left: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  background-color: #cae5f7;
+  margin: 5px;
+}
+
+.weatherIcon {
+  position: relative;
+  top: 10px;
+  left: -10px;
+  height: 80px;
+  width: 120px;
+  background-color: #cae5f7;
+}
+
+.latlngLabels {
+  color: #3e9bd8;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 1px white;
+}
+
+#latlngContainer {
+  position: relative;
+  left: 650px;
+  top: -90px;
+}
+
+#lat {
+  margin-right: 40px;
+}
+
+#lat, #lng {
+  position: relative;
+  top: -4px;
+  font-size: 15px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+#latlngSubmit {
+  background-color: white;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 15px;
+  position: relative;
+  top: 50px;
+  right: 425px;
+}
